@@ -1,0 +1,13 @@
+#topbar li{
+    list-style: none;
+    float: left;
+    margin: 0 5px;
+    padding: 0;
+}
+
+.carousel img{
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
