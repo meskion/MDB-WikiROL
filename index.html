@@ -7,6 +7,7 @@
     introducir mas contenido, incluyendo imagenes, video, etc
     Mirar como hostear en github
     que el aside se quede arriba, igual con la topbar
+    Dar estilo a la barra, fuente y poner un logo
 
 
   -->
@@ -33,12 +34,12 @@
 <body>
 
   <!-- Start your project here-->
-  <div class=" container-fluid">
-    <nav class=" row navbar fixed-top navbar-expand-lg ml-auto navbar-dark primary-color">
+  <div class=" container-fluid grey ">
+    <nav class=" row navbar fixed-top navbar-expand-lg ml-auto navbar-dark red darken-3">
 
       <!-- Navbar brand -->
       <a class="navbar-brand" href="#">WikiROL</a>
-     
+
       <!-- Collapse button -->
       <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#topbar"
         aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -78,20 +79,33 @@
 
         <form class="form-inline">
           <div class="md-form my-0">
-            <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+            <input class="form-control mr-sm-2" type="text" placeholder="busqueda" aria-label="Search">
           </div>
         </form>
       </div>
       <!-- Collapsible content -->
 
     </nav>
-    <div class="row my-5"></div>
+    <div class="row my-5">
 
-    <div class="row">
+      <div class="col-sm-12 col-md-12 col-lg-12 jumbotron" id="mainJumbo">
+        <div class="jumboWrap">
+          <h1 class="display-4">La ciudad Estrella</h1>
+          <p class="lead">una campaña abierta para hasta 6 jugadores</p>
+          <hr class="my-2">
+          <p>Al este del bosque real, se encuentra esta curiosa ciudad llena de misterios</p>
+          <p class="lead">
+            <a class="btn btn-red btn-lg" href="#" role="button">Saber mas</a>
+          </p>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div class="row mt-5">
       <!--Lets put some text here to start visualizing a bit-->
 
 
-      <div class="col-4">
+      <div class="col-lg-4 col-sm-10 col-md-6">
 
         <!-- Cosas que poner en la portada:
         video de una partida en twitch
@@ -103,11 +117,14 @@
 
         <!--video de una partida de rol-->
         <div class=" embed-responsive embed-responsive-16by9">
-          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0"
+          <h2>Partida de DnD destacada</h2>
+         <iframe class="embed-responsive-item" src="" allowfullscreen></iframe>
+          <iframe class=embed-resposive-item width="971" height="546" src="https://www.youtube.com/embed/ZeLPOzsONFk" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen></iframe>
         </div>
       </div>
-      <div class="col-4 bg-primary">
+      <div class="col-lg-4 col-sm-10 col-md-6 ">
         <!--Carousel de bichos-->
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
           <ol class="carousel-indicators">
@@ -136,7 +153,37 @@
           </a>
         </div>
 
-        <!--Novedades, un par de cards de rolup y rol20, la primera campaña, etc-->
+
+      </div>
+      <!--Novedades, un par de cards de rolup y rol20, la primera campaña, etc-->
+      <div class="col-lg-4 col-sm-10 col-md-6">
+        <!-- roll20 Card -->
+        <div class="card">
+
+          <!-- Card image -->
+          <div class="view overlay">
+            <img class="card-img-top" src="https://roll20.net/v3/assets/img/screens/hero-vtt@2x.png"
+              alt="Card image cap">
+            <a href="https://roll20.net/">
+              <div class="mask rgba-grey-strong"></div>
+            </a>
+          </div>
+
+          <!-- Card content -->
+          <div class="card-body">
+
+            <!-- Title -->
+            <h4 class="card-title">Roll20</h4>
+            <!-- Text -->
+            <p class="card-text">Pagina donde poder jugar partidas de rol online</p>
+            <!-- Button -->
+            <a href="https://roll20.net/" class="btn btn-red">ir</a>
+
+
+          </div>
+
+        </div>
+        <!-- Card -->
 
       </div>
     </div>
@@ -150,7 +197,7 @@
     <!-- Footer Elements -->
 
     <!-- Grid row-->
-    <div class="row page-footer font-small primary-color my-1 darken-3">
+    <div class="row page-footer font-small red mt-1 darken-3">
 
       <!-- Grid column -->
       <div class="col-md-12 py-2">
@@ -175,10 +222,6 @@
           <!--Instagram-->
           <a class="ins-ic">
             <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-          </a>
-          <!--Pinterest-->
-          <a class="pin-ic">
-            <i class="fab fa-pinterest fa-lg white-text fa-2x"> </i>
           </a>
         </div>
       </div>
