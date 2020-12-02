@@ -2,9 +2,7 @@
 
 School project to learn how to code a webpage usign bootstrap along with other libraries.
 
-The web is supposed to be a wiki about my own roleplaying games
-
-
+The web is supposed to be a wiki about my own roleplaying games, and also a portal to other roleplaying resources and media.
 
 
 
