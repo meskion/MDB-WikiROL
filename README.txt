@@ -1,25 +1,18 @@
-Material Design for Bootstrap
+
+
+School project to learn how to code a webpage usign bootstrap along with other libraries.
+
+The web is supposed to be a wiki about my own roleplaying games
+
+
+
+
+
+using Material Design for Bootstrap
 Version: MDB FREE 4.19.1
 
 Documentation:
 https://mdbootstrap.com/
 
-Getting started:
-https://mdbootstrap.com/docs/jquery/getting-started/download/
-
-Tutorials:
-MDB-Bootstrap: https://mdbootstrap.com/education/bootstrap/
-MDB-Wordpress: https://mdbootstrap.com/education/wordpress/
-
-Templates:
-https://mdbootstrap.com/templates/
-
 License:
 https://mdbootstrap.com/general/license/
-
-Support:
-https://mdbootstrap.com/forums/forum/support/
-
-Contact:
-office@mdbootstrap.com
-
