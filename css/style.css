@@ -55,11 +55,20 @@
 
 .textWrap {
     margin-top: 80px;
-    padding-left: 15px;
-    padding-top: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
     border-radius: 10px;
     border-color: rgba(0, 0, 0, .7);
     border-style: solid;
+}
+.textWrap img{
+   margin-top: 1rem;
+   margin-bottom: 1rem;
+    border-style: solid;
+    border-radius: 2pt;
+    border-color: #c62828;
+
 }
 
 body {
@@ -78,3 +87,13 @@ body {
     width: 75%;
     
 }
+
+.textWrap h3, .textWrap h1, th{
+    color: #c62828;
+
+}
+.textWrap ol li{
+   padding-bottom:  1rem;
+
+}
+
