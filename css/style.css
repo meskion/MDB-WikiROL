@@ -84,7 +84,7 @@ body {
     padding:  0rem 1rem;
 }
 .navbar-brand img{
-    width: 75%;
+    width: 3rem;
     
 }
 
@@ -92,7 +92,7 @@ body {
     color: #c62828;
 
 }
-.textWrap ol li{
+.textWrap ul li{
    padding-bottom:  1rem;
 
 }
