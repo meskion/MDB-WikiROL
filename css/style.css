@@ -67,6 +67,9 @@
 .textWrap img{
    margin-top: 1rem;
    margin-bottom: 1rem;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
     border-style: solid;
     border-radius: 2pt;
     border-color: #c62828;
@@ -116,6 +119,10 @@ body {
   .AttTable{
       border-spacing: 3rem;
       text-align: center;
+      margin: 0 auto;
+      display: block ruby;
+      
+    
   }
   
   .AttTable th, .AttTable td{
