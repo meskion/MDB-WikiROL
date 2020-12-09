@@ -55,9 +55,11 @@
 
 .textWrap {
     margin-top: 80px;
+    margin-bottom: 30px;
     padding-left: 30px;
     padding-right: 30px;
     padding-top: 20px;
+    padding-bottom: 20px;
     border-radius: 10px;
     border-color: rgba(0, 0, 0, .7);
     border-style: solid;
@@ -97,3 +99,36 @@ body {
 
 }
 
+.ficha {
+    border-radius: 10px;
+    border-style: solid;
+    padding: 16px;
+    background-color: rgba(0, 0, 0, .7);
+    
+  }
+  
+  .ficha img {
+   
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+  }
+
+  .AttTable{
+      border-spacing: 3rem;
+      text-align: center;
+  }
+  
+  .AttTable th, .AttTable td{
+      border-style: solid;
+      border-color: #c62828;
+      border-width: 3px;
+      padding: 5px;
+      color: white;
+  }
+
+  .AttTable th{
+      font-weight: bold;
+      background-color: #c62828
+  }
+
+  
