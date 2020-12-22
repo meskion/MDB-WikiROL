@@ -1,0 +1,17 @@
+<rss version="2.0">
+    <channel>
+        <title>El Tiempo</title>
+        <description>
+            El Tiempo en España y en todo el mundo. Previsión del tiempo para hoy.
+         </description>
+        <link>https://www.tiempo.es/</link>
+        <language>es</language>
+        <item>
+            <title>Tiempo en Sevilla</title>
+            <description>
+                Seccion del tiempo en Sevilla
+            </description>
+            <link>https://www.tiempo.es/sevilla-sevilla-es0se0093.html</link>
+        </item>
+    </channel>
+</rss>
