@@ -27,61 +27,7 @@
 
 <body>
 
-    <nav class=" row navbar fixed-top navbar-expand-lg ml-auto navbar-dark red darken-3">
-
-        <!-- Navbar brand -->
-        <a class="navbar-brand" href="../../index.html">
-            <img src="../../img/svg/3gems.svg" alt=""> <strong>WikiROL</strong>
-        </a>
-        <!-- Collapse button -->
-        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#topbar"
-            aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <!-- Collapsible content -->
-        <div class="navbar-collapse collapse" id="topbar">
-
-            <!-- Links -->
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link waves-effect waves-light" href="../../index.html">Inicio
-                        <span class="sr-only">(current)</span>
-                    </a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link waves-effect waves-light" href="../bestiary.html">Bestiario</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link waves-effect waves-light" href="../place_holder.html">Manual</a>
-                </li>
-
-                <!-- Dropdown -->
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle waves-effect waves-light" id="navbarDropdownMenuLink"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Campañas</a>
-                    <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item waves-effect waves-light" href="../campaign_starCity.html">Ciudad
-                            Estrellada</a>
-                        <a class="dropdown-item waves-effect waves-light" href="../place_holder.html">Bosque Encantado</a>
-                        <a class="dropdown-item waves-effect waves-light" href="../place_holder.html">Tannisport</a>
-                    </div>
-                </li>
-
-            </ul>
-            <!-- search bar -->
-
-            <form class="form-inline">
-                <div class="md-form my-0 active">
-
-                    <input class="form-control mr-sm-2" type="text" placeholder="busqueda" aria-label="Search">
-                </div>
-            </form>
-        </div>
-        <!-- Collapsible content -->
-
-    </nav>
-
+    <?php include '../../phpFragments/header.php'; ?>
 
 
 
@@ -127,7 +73,7 @@
                                     <th>SUE</th>
 
                                 </tr>
-                               
+
                                 <tr>
                                     <td>10</td>
                                     <td>10</td>
@@ -157,7 +103,7 @@
                     -->
                 </div>
 
-             
+
                 <hr>
 
 
@@ -167,37 +113,7 @@
 
 
 
-        <!-- Footer -->
-
-
-        <!-- Footer Elements -->
-
-        <!-- Grid row-->
-        <div class="row page-footer font-small red mt-1 darken-3">
-
-            <!-- Grid column -->
-            <div class="col-md-12">
-                <div class="flex-center">
-
-
-                    <!-- Twitter -->
-                    <a class="tw-ic" href="https://twitter.com">
-                        <i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-                    </a>
-                    <!-- GitHub-->
-                    <a class="gplus-ic" href="https://github.com/meskion">
-                        <i class="fab fa-github fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-                    </a>
-                    <!--Linkedin -->
-                    <a class="li-ic" href="https://www.linkedin.com/in/manuel-fernandez-de-heredia-delgado-1485655b/">
-                        <i class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-                    </a>
-
-                </div>
-            </div>
-            <!-- Grid column -->
-
-        </div>
+        <?php include '../phpFragments/footer.php'; ?>
 
 
 

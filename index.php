@@ -24,65 +24,10 @@
 </head>
 
 <body>
-
+  <?php include 'phpFragments/header.php'; ?>
   <!-- Start your project here-->
   <div class=" container-fluid ">
-    <nav class=" row navbar fixed-top navbar-expand-lg ml-auto navbar-dark red darken-3">
 
-      <!-- Navbar brand -->
-
-      <a class="navbar-brand" href="index.html">
-        <img src="img/svg/3gems.svg" alt=""> <strong>WikiROL</strong>
-      </a>
-
-      <!-- Collapse button -->
-      <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#topbar"
-        aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <!-- Collapsible content -->
-      <div class="navbar-collapse collapse" id="topbar">
-
-        <!-- Links -->
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link waves-effect waves-light" href="index.html">Inicio
-              <span class="sr-only">(current)</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link waves-effect waves-light" href="pages/bestiary.html">Bestiario</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link waves-effect waves-light" href="pages/place_holder.html">Manual</a>
-          </li>
-
-          <!-- Dropdown -->
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle waves-effect waves-light" id="navbarDropdownMenuLink"
-              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Campañas</a>
-            <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item waves-effect waves-light" href="pages/campaign_starCity.html">Ciudad
-                Estrellada</a>
-              <a class="dropdown-item waves-effect waves-light" href="pages/place_holder.html">Bosque Encantado</a>
-              <a class="dropdown-item waves-effect waves-light" href="pages/place_holder.html">Tannisport</a>
-            </div>
-          </li>
-
-        </ul>
-        <!-- search bar -->
-
-        <form class="form-inline">
-          <div class="md-form my-0 active">
-
-            <input class="form-control mr-sm-2" type="text" placeholder="busqueda" aria-label="Search">
-          </div>
-        </form>
-      </div>
-      <!-- Collapsible content -->
-
-    </nav>
     <div class="row my-0">
       <!-- Jumbotron destacando una pagina de la wiki-->
       <div class="col-sm-12 col-md-12 col-lg-12 jumbotron" id="mainJumbo">
@@ -92,7 +37,7 @@
           <hr class="my-2">
           <p>Al este del bosque real, se encuentra esta curiosa ciudad llena de misterios</p>
           <p class="lead">
-            <a class="btn btn-red btn-lg" href="pages/campaign_starCity.html" role="button">Saber mas</a>
+            <a class="btn btn-red btn-lg" href="pages/campaign_starCity.php" role="button">Saber mas</a>
           </p>
         </div>
       </div>
@@ -108,8 +53,7 @@
 
           <div class=" embed-responsive embed-responsive-16by9">
 
-            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ZeLPOzsONFk"
-              allowfullscreen></iframe>
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ZeLPOzsONFk" allowfullscreen></iframe>
 
 
           </div>
@@ -129,7 +73,7 @@
             </ol>
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <a href="pages/place_holder.html">
+                <a href="pages/place_holder.php">
                   <img class="d-block  w-100" src="img/characters/golem.png" alt="First slide">
                 </a>
                 <div class="carousel-caption">
@@ -137,7 +81,7 @@
                 </div>
               </div>
               <div class="carousel-item">
-                <a href="pages/bichos/clerigo.html">
+                <a href="pages/bichos/clerigo.php">
                   <img class="d-block w-100" src="img/characters/clerigo1.png" alt="Second slide">
                 </a>
                 <div class="carousel-caption">
@@ -146,7 +90,7 @@
               </div>
               <div class="carousel-item">
 
-                <a href="pages/place_holder.html">
+                <a href="pages/place_holder.php">
                   <img class="d-block w-100" src="img/characters/Shoosuva.png" alt="Third slide">
                 </a>
                 <div class="carousel-caption">
@@ -175,8 +119,7 @@
 
           <!-- Card image -->
           <div class="view overlay">
-            <img class="card-img-top" src="https://roll20.net/v3/assets/img/screens/hero-vtt@2x.png"
-              alt="Card image cap">
+            <img class="card-img-top" src="https://roll20.net/v3/assets/img/screens/hero-vtt@2x.png" alt="Card image cap">
             <a href="https://roll20.net/">
               <div class="mask rgba-grey-strong"></div>
 
@@ -204,52 +147,8 @@
 
 
 
+    <?php include 'phpFragments/footer.php'; ?>
 
-    <!-- Footer -->
-
-
-    <!-- Footer Elements -->
-
-    <!-- Grid row-->
-    <div class="row page-footer font-small red mt-1 darken-3">
-
-      <!-- Grid column -->
-      <div class="col-md-12">
-        <div class=" flex-center">
-
-
-          <!-- Twitter -->
-          <a class="tw-ic" href="https://twitter.com/">
-            <i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-          </a>
-          <!-- GitHub-->
-          <a class="gplus-ic" href="https://github.com/meskion">
-            <i class="fab fa-github fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-          </a>
-          <!--Linkedin -->
-          <a class="li-ic" href="https://www.linkedin.com/in/manuel-fernandez-de-heredia-delgado-1485655b/">
-            <i class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-          </a>
-
-            <a class="mr-3" href="feeds/rss.xml">
-              <img src='https://www.flaticon.es/svg/static/icons/svg/0/110.svg'
-                width='28' height='28'>
-            </a>
-
-            <a class="mr-3" href="feeds/atom.xml">
-              <img src='https://www.flaticon.es/svg/static/icons/svg/0/110.svg'
-                width='28' height='28'>
-            </a>
-
-          <a href='https://feedly.com/i/subscription/feed%2Fhttp%3A%2F%2Ffeeds.feedburner.com%2FForges.' target='blank'>
-            <img id='feedlyFollow' src='http://s3.feedly.com/img/follows/feedly-follow-square-flat-white_2x.png'
-              alt='follow us in feedly' width='28' height='28'>
-          </a>
-        </div>
-      </div>
-      <!-- Grid column -->
-
-    </div>
     <!-- Grid row-->
 
   </div>

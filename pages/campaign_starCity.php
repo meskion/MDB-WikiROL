@@ -25,66 +25,13 @@
 
 <body>
 
-    <nav class=" row navbar fixed-top navbar-expand-lg ml-auto navbar-dark red darken-3">
 
-        <!-- Navbar brand -->
-        <a class="navbar-brand" href="../index.html">
-            <img src="../img/svg/3gems.svg" alt=""> <strong>WikiROL</strong>
-        </a>
-        <!-- Collapse button -->
-        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#topbar"
-            aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <!-- Collapsible content -->
-        <div class="navbar-collapse collapse" id="topbar">
-
-            <!-- Links -->
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link waves-effect waves-light" href="../index.html">Inicio
-                        <span class="sr-only">(current)</span>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link waves-effect waves-light" href="bestiary.html">Bestiario</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link waves-effect waves-light" href="place_holder.html">Manual</a>
-                </li>
-
-                <!-- Dropdown -->
-                <li class="nav-item dropdown active">
-                    <a class="nav-link dropdown-toggle waves-effect waves-light" id="navbarDropdownMenuLink"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Campañas</a>
-                    <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item waves-effect waves-light" href="campaign_starCity.html">Ciudad
-                            Estrellada</a>
-                        <a class="dropdown-item waves-effect waves-light" href="place_holder.html">Bosque Encantado</a>
-                        <a class="dropdown-item waves-effect waves-light" href="place_holder.html">Tannisport</a>
-                    </div>
-                </li>
-
-            </ul>
-            <!-- search bar -->
-
-            <form class="form-inline">
-                <div class="md-form my-0 active">
-
-                    <input class="form-control mr-sm-2" type="text" placeholder="busqueda" aria-label="Search">
-                </div>
-            </form>
-        </div>
-        <!-- Collapsible content -->
-
-    </nav>
+    <?php include '../phpFragments/header.php'; ?>
 
 
-
-     <!--Contenedor principal-->
+    <!--Contenedor principal-->
     <div class="container-fluid ">
-       
+
         <div class="row ">
             <!-- Columna con la mayoria del contenido, con clase custom.
                  pasa a ocupar todo el ancho de la pagina en movil-->
@@ -144,19 +91,19 @@
 
                 <p>
                     Patrones Destacables de la taberna:
-                    <ul>
-                        <li><em>Erin la Hechizera</em>, investigadora de objetos mágicos</li>
-                        <li><em>Jasper el Bardo</em>, toca todas las noches, con un laud, increiblemente mal. Julius le
-                            deja
-                            tocar porque lo poco que gana se lo deja en cerveza, nunca se le ha visto hacer nada
-                            sospechoso,
-                            pero todo el mundo siente que esta asocidado con a saber que calaña de criminales.
-                        </li>
-                        <li><em>Marco el Cazarecompensas</em>, todas las noches vuelve a comer y descansar a la posada.
-                            Taciturno,
-                            de pocas palabras.</li>
+                <ul>
+                    <li><em>Erin la Hechizera</em>, investigadora de objetos mágicos</li>
+                    <li><em>Jasper el Bardo</em>, toca todas las noches, con un laud, increiblemente mal. Julius le
+                        deja
+                        tocar porque lo poco que gana se lo deja en cerveza, nunca se le ha visto hacer nada
+                        sospechoso,
+                        pero todo el mundo siente que esta asocidado con a saber que calaña de criminales.
+                    </li>
+                    <li><em>Marco el Cazarecompensas</em>, todas las noches vuelve a comer y descansar a la posada.
+                        Taciturno,
+                        de pocas palabras.</li>
 
-                    </ul>
+                </ul>
                 </p>
                 <hr>
                 <h3>Tienda de Monty</h3>
@@ -281,37 +228,7 @@
 
 
 
-        <!-- Footer -->
-
-
-        <!-- Footer Elements -->
-
-        <!-- Grid row-->
-        <div class="row page-footer font-small red mt-1 darken-3">
-
-            <!-- Grid column -->
-            <div class="col-md-12">
-                <div class="flex-center">
-
-
-                    <!-- Twitter -->
-                    <a class="tw-ic" href="https://twitter.com">
-                        <i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-                    </a>
-                    <!-- GitHub-->
-                    <a class="gplus-ic" href="https://github.com/meskion">
-                        <i class="fab fa-github fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-                    </a>
-                    <!--Linkedin -->
-                    <a class="li-ic" href="https://www.linkedin.com/in/manuel-fernandez-de-heredia-delgado-1485655b/">
-                        <i class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-                    </a>
-
-                </div>
-            </div>
-            <!-- Grid column -->
-
-        </div>
+        <?php include '../phpFragments/footer.php'; ?>
         <!-- Grid row-->
 
 
